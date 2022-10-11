@@ -1,5 +1,7 @@
 # Commande admin rendant bien service
 ## Donne le nom de la class de l'objet grace à la molette sourri (à exécuter en local)
+
+# Par le serveur Arma 3 Pacific Island https://top-serveurs.net/arma3/pacific-island
 ```
 player addAction ["House to RPT", {diag_log format ["Building: %1", typeOf cursorTarget]; hint format ["%1 Saved!", typeOf cursorTarget]}];
 ```
